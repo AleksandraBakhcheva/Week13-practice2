@@ -1,10 +1,24 @@
-function sum(a, b) {
+function sum() {
     let a = prompt("Введите первое число:");
     let b = prompt("Введите второе число:"); 
-    return Number(a) + Number(b);
-
-
+    let result = Number(a) + Number(b);
+    alert(`Ваш результат: ${result}`);
 }
-let result = sum(a, b);
-alert(`Сумма чисел: ${result}`);
-
+function decrease() {
+    let a = prompt("Введите первое число:");
+    let b = prompt("Введите второе число:"); 
+    let result = Number(a) - Number(b);
+    alert(`Ваш результат: ${result}`);
+}
+function devide() {
+    let a = prompt("Введите первое число:");
+    let b = prompt("Введите второе число:"); 
+    let result = Number(a) / Number(b);
+    alert(`Ваш результат: ${result}`);
+}
+function multiply() {
+    let a = prompt("Введите первое число:");
+    let b = prompt("Введите второе число:"); 
+    let result = Number(a) * Number(b);
+    alert(`Ваш результат: ${result}`);
+}
